@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Snippets
+{% endblock %}
+
+
+{% block content %}
+
+<h1>Snippets</h1>
+<hr>
+
+
+
+
+
+<footer>
+
+  {% include 'pagination.html' with page=snippets %}
+  
+</footer>
+
+{% endblock %}
